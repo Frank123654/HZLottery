@@ -49,11 +49,12 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple numpy<br/>
 2.SQL登录信息修改<br/>
 目前SQL的登录信息是写死在代码里的，在DBMgr.py的SQLMgr的connect里填上正确的登录信息。<br/>
 3.填写数据源URL<br/>
-目前摇号数据源也是写死的，在DataSource.py的DataSrc的urls变量填写想分析的URL。可以在https://www.hz-notary.com/lottery/index随意点击感兴趣的楼盘摇号信息，
+目前摇号数据源也是写死的，在DataSource.py的DataSrc的urls变量填写想分析的URL。可以在https://www.hz-notary.com/lottery/index 随意点击感兴趣的楼盘摇号信息，
 然后分别填下登记汇总表和摇号结果的url。这块后面再用爬虫爬取来优化。<br/>
 4.执行DBMgr.py脚本<br/>
-执行后在当前目录下生成_report.html文件<br/>
+执行后在当前目录下生成_report.html文件，示例图（注：数据有修改，仅示范效果）：<br/>
 
+![](https://github.com/Frank123654/HZLottery/blob/master/example.png)
 
 框架
 ---
